@@ -1,0 +1,26 @@
+<odoo>
+    <data>
+
+          <!-- Crear un médico -->
+    <record id="demo_medico_1" model="hospital.medicos">
+        <field name="name">Dr. Juan</field>
+        <field name="last_name">Pérez</field>
+        <field name="num_cole">123456</field>
+    </record>
+
+    <!-- Crear un paciente -->
+    <record id="demo_paciente_1" model="hospital.pacientes">
+        <field name="name">Carlos</field>
+        <field name="last_name">Gómez</field>
+        <field name="sintomas">Dolor abdominal, fiebre</field>
+    </record>
+
+    <!-- Crear un diagnóstico -->
+    <record id="demo_diagnostico_1" model="hospital.diagnosticos">
+        <field name="medico_id" ref="demo_medico_1"/>
+        <field name="paciente_id" ref="demo_paciente_1"/>
+        <field name="diagnostico">Posible apendicitis, se recomienda realizar cirugía.</field>
+    </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,37 @@
+<odoo>
+  <data>
+
+    <!-- Vista de formulario de Médicos -->
+    <record id="view_hospital_medicos_form" model="ir.ui.view">
+        <field name="name">hospital.medicos.form</field>
+        <field name="model">hospital.medicos</field>
+        <field name="arch" type="xml">
+            <form string="Médico">
+                <sheet>
+                    <group>
+                        <field name="name" string="Nombre"/>
+                        <field name="last_name" string="Apellidos"/>
+                        <field name="num_cole" string="Número de Colegiado"/>
+                    </group>
+                    <group>
+                        <field name="pacientes_ids" widget="many2many_tags" string="Pacientes"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_hospital_medicos_list" model="ir.ui.view">
+        <field name="name">hospital.medicos.list</field>
+        <field name="model">hospital.medicos</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name" string="Nombre"/>
+                <field name="last_name" string="Apellidos"/>
+                <field name="num_cole" string="Número de Colegiado"/>
+            </list>
+        </field>
+    </record>
+
+  </data>
+</odoo>
