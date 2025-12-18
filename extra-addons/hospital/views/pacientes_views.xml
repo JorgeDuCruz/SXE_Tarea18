@@ -13,9 +13,6 @@
                         <field name="last_name" string="Apellidos"/>
                         <field name="sintomas" string="Síntomas"/>
                     </group>
-                    <group>
-                        <field name="medicos_ids" widget="many2many_tags" string="Médicos"/>
-                    </group>
                 </sheet>
             </form>
         </field>

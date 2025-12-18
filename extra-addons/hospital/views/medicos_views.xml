@@ -13,9 +13,6 @@
                         <field name="last_name" string="Apellidos"/>
                         <field name="num_cole" string="Número de Colegiado"/>
                     </group>
-                    <group>
-                        <field name="pacientes_ids" widget="many2many_tags" string="Pacientes"/>
-                    </group>
                 </sheet>
             </form>
         </field>

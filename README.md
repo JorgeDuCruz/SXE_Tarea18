@@ -11,10 +11,9 @@ Como se puede ver, el módulo esta,efectivamente, instalado.
 
 Aquí hay un ejemplo de como se ven los datos de los médicos
 
-![MedicosForm.png](imgs/MedicosForm.png)
+![FormMedicos.png](imgs/FormMedicos.png)
 
-Y aquí como se introducen los datos. No hay ninguna necesidad de que permita agregar un paciente, 
-pero es para que puedas verificar rápidamente que si estan relacionados entre si.
+Y aquí como se introducen los datos.
 
 ## Pacientes
 
@@ -22,9 +21,9 @@ pero es para que puedas verificar rápidamente que si estan relacionados entre s
 
 Aquí hay un ejemplo de como se ven los datos de los pacientes
 
-![PacienteForm.png](imgs/PacienteForm.png)
+![FormPacientes.png](imgs/FormPacientes.png)
 
-Al igual que con los médicos puedes introducir el nombre del médico solo para que puedas ver la relación.
+Y aquí como se introducen los datos.
 
 ## Diagnosticos
 
